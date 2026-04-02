@@ -1,6 +1,6 @@
-# NexaratsINV - Premium Real Estate Platform
+# SSP Estates - Premium Real Estate Platform
 
-NexaratsINV is a cinematic, conversion-optimized real estate platform built with a modern tech stack. Inspired by premium design systems, it features high-end animations, interactive property discovery, and a robust full-stack architecture.
+SSP Estates is a cinematic, conversion-optimized real estate platform built with a modern tech stack. Inspired by premium design systems, it features high-end animations, interactive property discovery, and a robust full-stack architecture.
 
 ---
 
@@ -91,4 +91,4 @@ Ensure you have [Docker](https://www.docker.com/) and [Docker Compose](https://d
 
 This project is licensed under the **ISC License**.
 
-Created with ❤️ by **SSP**
+Created with ❤️ by **SSP EStates**
