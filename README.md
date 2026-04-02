@@ -18,6 +18,7 @@ NexaratsINV is a cinematic, conversion-optimized real estate platform built with
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - **Framework**: Next.js 16 (React 19)
 - **Styling**: Tailwind CSS 4
 - **Animations**: Framer Motion
@@ -25,12 +26,14 @@ NexaratsINV is a cinematic, conversion-optimized real estate platform built with
 - **HTTP Client**: Axios
 
 ### Backend
+
 - **Runtime**: Node.js
 - **Framework**: Express.js
 - **Database**: MongoDB (via Mongoose ODM)
 - **Security**: JSON Web Tokens (JWT) & Bcrypt
 
 ### DevOps
+
 - **Containerization**: Docker & Docker Compose
 - **Web Server**: Nginx
 
@@ -41,12 +44,14 @@ NexaratsINV is a cinematic, conversion-optimized real estate platform built with
 Ensure you have [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/) installed.
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/Jayakrishnasai/Real_EState_Platform.git
    cd Real_EState_Platform
    ```
 
 2. **Start the application:**
+
    ```bash
    docker-compose up --build
    ```
@@ -83,6 +88,7 @@ Ensure you have [Docker](https://www.docker.com/) and [Docker Compose](https://d
 ---
 
 ## 📝 License
+
 This project is licensed under the **ISC License**.
 
-Created with ❤️ by **Jaya Krishna Sai**
+Created with ❤️ by **SSP**
