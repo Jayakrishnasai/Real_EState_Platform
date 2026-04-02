@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+@import "tailwindcss";
+@config "../../tailwind.config.js";
+
+@layer base {
+  :root {
+    --background: 17 17 17;
+    --foreground: 255 255 255;
+  }
+
+  * {
+    @apply border-white/5;
+  }
+
+  body {
+    @apply bg-premium-900 text-white font-sans antialiased overflow-x-hidden;
+    background-color: rgb(var(--background));
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif tracking-tight;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-md border border-white/10;
+  }
+  
+  .text-gold-gradient {
+    @apply bg-clip-text text-transparent bg-linear-to-r from-gold-400 via-gold-500 to-gold-600;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-premium-900;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-premium-700/50 rounded-full hover:bg-gold-500/50 transition-colors;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base selection color */
+::selection {
+  @apply bg-gold-500/30 text-white;
+}
